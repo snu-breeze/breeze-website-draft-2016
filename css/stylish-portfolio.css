@@ -81,21 +81,6 @@ hr.small {
     transition: all 0.4s ease 0s;
 }
 
-#sidebar-wrapper{
-     @extend .navbar, .navbar-default;
-
-  @media (max-width: $screen-xs-max) {
-    @extend .navbar-static-top;
-  }
-
-  @media (min-width: $screen-sm-min) {
-    @extend .navbar-fixed-top;
-  }
-
-}
-
-
-
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -170,7 +155,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/home.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -181,24 +166,8 @@ hr.small {
 
 .about {
     padding: 50px 0;
-}
-
-/* Services */
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-/* Callout */
-
-.callout {
-    display: table;
     width: 100%;
-    height: 400px;
+    height: 700px;
     color: #fff;
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -206,6 +175,8 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+
+
 
 /* Portfolio */
 
@@ -225,37 +196,7 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
 
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
-/* Footer */
-
-footer {
-    padding: 100px 0;
-}
 
 #to-top {
   display: none;
@@ -264,3 +205,15 @@ footer {
   right: 5px;
 }
 
+.btn-twitter
+{
+    background-color: #55acee;
+}
+.btn-facebook
+{
+    background-color: #3b5998;
+}
+.btn-whatsapp
+{
+    background-color: #4dc247;
+}
