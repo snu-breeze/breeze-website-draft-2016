@@ -178,7 +178,7 @@ hr.small {
 .about {
     padding: 50px 0;
     width: 100%;
-    height: 700px;
+    /*height: 700px;*/
     color: #fff;
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -207,7 +207,22 @@ hr.small {
     opacity: 0.8;
 }
 
+/*Footer*/
+footer {
+    padding: 10px 0;
+    width: 100%;
+    /*height: 700px;*/
+    background-color: #3D566E;
+    /*background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+}
 
+#icons a i{
+    color:#1ABC9C;
+}
 
 #to-top {
   display: none;
@@ -227,4 +242,18 @@ hr.small {
 .btn-whatsapp
 {
     background-color: #4dc247;
+}
+
+.btn {
+    color: #FFF;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 4px;
 }
